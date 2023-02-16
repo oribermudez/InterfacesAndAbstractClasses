@@ -1,0 +1,8 @@
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\obj\Debug\Lab3AbstractAndInterfaces.csproj.AssemblyReference.cache
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\obj\Debug\Lab3AbstractAndInterfaces.csproj.SuggestedBindingRedirects.cache
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\obj\Debug\Lab3AbstractAndInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\bin\Debug\Lab3AbstractAndInterfaces.exe.config
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\bin\Debug\Lab3AbstractAndInterfaces.exe
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\bin\Debug\Lab3AbstractAndInterfaces.pdb
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\obj\Debug\Lab3AbstractAndInterfaces.exe
+C:\Users\oribe\Documents\SAIT\OOP C#\InterfacesAndAbstractClasses\Lab3AbstractAndInterfaces\obj\Debug\Lab3AbstractAndInterfaces.pdb
