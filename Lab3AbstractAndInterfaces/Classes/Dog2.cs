@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab3AbstractAndInterfaces.Classes
 {
-    internal class iDog : IAnimal
+    internal class Dog2 : IAnimal
     {
         // Property implementation:
         public string Name { get; set; }

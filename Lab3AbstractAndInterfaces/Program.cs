@@ -15,11 +15,11 @@ namespace Lab3AbstractAndInterfaces
 
             // ------------------- Dog -------------------
 
-            Console.WriteLine("Please input your dog's name");
+            Console.Write("Please input your dog's name: ");
             string dogName = Console.ReadLine();
-            Console.WriteLine("Please input your dog's color");
+            Console.Write("Please input your dog's color: ");
             string dogColor = Console.ReadLine();
-            Console.WriteLine("Please input your dog's age");
+            Console.Write("Please input your dog's age: ");
             string dogAge = Console.ReadLine();
 
             Dog dog = new Dog();
@@ -34,11 +34,11 @@ namespace Lab3AbstractAndInterfaces
 
             // ------------------- Cat -------------------
 
-            Console.WriteLine("Please input your cat's name");
+            Console.Write("Please input your cat's name: ");
             string catName = Console.ReadLine();
-            Console.WriteLine("Please input your cat's color");
+            Console.Write("Please input your cat's color: ");
             string catColor = Console.ReadLine();
-            Console.WriteLine("Please input your cat's age");
+            Console.Write("Please input your cat's age: ");
             string catAge = Console.ReadLine();
 
             Cat cat = new Cat();
@@ -53,49 +53,49 @@ namespace Lab3AbstractAndInterfaces
 
             // ------------------- Interface Dog -------------------
 
-            Console.WriteLine("Please input your dog's name");
-            string iDogName = Console.ReadLine();
-            Console.WriteLine("Please input your dog's color");
-            string iDogColor = Console.ReadLine();
-            Console.WriteLine("Please input your dog's age");
-            string iDogAge = Console.ReadLine();
-            Console.WriteLine("Please input your dog's height");
-            string iDogHeight = Console.ReadLine();
+            Console.Write("Please input your dog's name: ");
+            string dogTwoName = Console.ReadLine();
+            Console.Write("Please input your dog's color: ");
+            string dogTwoColor = Console.ReadLine();
+            Console.Write("Please input your dog's age: ");
+            string dogTwoAge = Console.ReadLine();
+            Console.Write("Please input your dog's height: ");
+            string dogTwoHeight = Console.ReadLine();
 
-            IAnimal iDog = new iDog();
-            iDog.Name = iDogName;
-            iDog.Color = iDogColor;
-            iDog.Age = int.Parse(iDogAge);
-            iDog.Height = double.Parse(iDogHeight);
+            IAnimal dogTwo = new Dog2();
+            dogTwo.Name = dogTwoName;
+            dogTwo.Color = dogTwoColor;
+            dogTwo.Age = int.Parse(dogTwoAge);
+            dogTwo.Height = double.Parse(dogTwoHeight);
 
             Console.WriteLine("Dog properties: ");
-            Console.WriteLine("Name: " + iDog.Name);
-            Console.WriteLine("Color: " + iDog.Color);
-            Console.WriteLine("Age: " + iDog.Age);
-            Console.WriteLine("Height: " + iDog.Height);
+            Console.WriteLine("Name: " + dogTwo.Name);
+            Console.WriteLine("Color: " + dogTwo.Color);
+            Console.WriteLine("Age: " + dogTwo.Age);
+            Console.WriteLine("Height: " + dogTwo.Height);
 
             // ------------------- Interface Cat -------------------
 
-            Console.WriteLine("Please input your cat's name");
-            string iCatName = Console.ReadLine();
-            Console.WriteLine("Please input your cat's color");
-            string iCatColor = Console.ReadLine();
-            Console.WriteLine("Please input your cat's age");
-            string iCatAge = Console.ReadLine();
-            Console.WriteLine("Please input your cat's height");
-            string iCatHeight = Console.ReadLine();
+            Console.Write("Please input your cat's name: ");
+            string catTwoName = Console.ReadLine();
+            Console.Write("Please input your cat's color: ");
+            string catTwoColor = Console.ReadLine();
+            Console.Write("Please input your cat's age: ");
+            string catTwoAge = Console.ReadLine();
+            Console.Write("Please input your cat's height: ");
+            string catTwoHeight = Console.ReadLine();
 
-            IAnimal iCat = new iCat();
-            iCat.Name = iCatName;
-            iCat.Color = iCatColor;
-            iCat.Age = int.Parse(iCatAge);
-            iCat.Height = double.Parse(iCatHeight);
+            IAnimal catTwo = new Cat2();
+            catTwo.Name = catTwoName;
+            catTwo.Color = catTwoColor;
+            catTwo.Age = int.Parse(catTwoAge);
+            catTwo.Height = double.Parse(catTwoHeight);
 
             Console.WriteLine("Cat properties: ");
-            Console.WriteLine("Name: " + iCat.Name);
-            Console.WriteLine("Color: " + iCat.Color);
-            Console.WriteLine("Age: " + iCat.Age);
-            Console.WriteLine("Height: " + iCat.Height);
+            Console.WriteLine("Name: " + catTwo.Name);
+            Console.WriteLine("Color: " + catTwo.Color);
+            Console.WriteLine("Age: " + catTwo.Age);
+            Console.WriteLine("Height: " + catTwo.Height);
         }
     }
 }

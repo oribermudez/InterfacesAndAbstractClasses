@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab3AbstractAndInterfaces.Classes
 {
-    internal class iCat : IAnimal
+    internal class Cat2 : IAnimal
     {
         // Property implementation:
         public string Name { get; set; }
